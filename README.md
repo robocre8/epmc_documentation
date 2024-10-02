@@ -32,11 +32,11 @@ The **`Easy PID Motor Controller (EPMC)`** easily solves and abstracts all these
 > [!IMPORTANT]
 > In summary, the **`Easy PID Motor Controller (EPMC)`** provides the following:
 > * Easy interfacing with a **geared DC motor** with a **quadrature encoder**.
-> * Easy setting up of PID control parameter gain for the interfaced motor via its GUI application - [epmc_setup_application]().
+> * Easy setting up of PID control parameter gain for the interfaced motor via its GUI application - [epmc_setup_application](https://github.com/samuko-things-company/epmc_setup_application).
 > * Easy motor angular speed commands in rad/sec (not PWM) and getting feedback on the motor’s actual angular position and angular speed.
-> * Easy integration with `ROS2` (microcomputer or PC) projects with its ROS2 control package - [epmc_ros2_control]().
-> * Easy integration with `Arduino` projects with its I2C library - [epmc_arduino]().
-> * Easy integration with a microcomputer-based (`Python` or `Cpp`) project with its [epmc_python]() and [epmc_cpp]() library.
+> * Easy integration with `ROS2` (microcomputer or PC) projects with its ROS2 control package - [epmc_ros2_control](https://github.com/samuko-things-company/epmc_ros2_control).
+> * Easy integration with `Arduino` projects with its I2C library - [epmc_arduino](https://github.com/samuko-things-company/epmc_arduino).
+> * Easy integration with a microcomputer-based (`Python` or `Cpp`) project with its [epmc_python](https://github.com/samuko-things-company/epmc_python) and [epmc_cpp](https://github.com/samuko-things-company/epmc_cpp) library.
 
 #
 
@@ -63,7 +63,7 @@ The **`Easy PID Motor Controller (EPMC)`** easily solves and abstracts all these
 * Get/Purchase the **L298N EPMC MODULE** (or a **Custom EPMC Interface Board**)
 > [!NOTE]
 > The **L298N EPMC MODULE** (or a **Custom EPMC Interface Board**) is available on **`Pre-order`**.
-> Please reach out to me via [LinkedIn]() or through my [Contact]() page.
+> Please reach out to me via [LinkedIn](www.linkedin.com/in/samuel-obiagba-a61316196) or through my [Contact](https://samukothings.com/contact/) page.
 * Interface the geared DC motors with quadrature encoder to the **L298N EPMC MODULE** (or the **Custom EPMC Interface Board**).
 * Download and run the **EPMC Setup Application** to set up the encoder parameter and PID gains for the interfaced geared DC motor with quadrature encoder. You will be able to visualize the result - [tutorial]()
 * Use it in your **ROS2** project - [tutorial]()
