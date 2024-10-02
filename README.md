@@ -19,7 +19,7 @@ It also provides a `USB serial and I2C communication interface` with `ROS2`, `Ar
 > Picture explaining the concept of the custom EPMC Interface board.
 #
 
-#### THE COMMON MOTOR speed CONTROLLER PROBLEM (The Traditional PWM Approach)
+#### THE COMMON MOTOR SPEED CONTROL PROBLEM (The Traditional PWM Approach)
 Whether you are a hobbyist, maker, engineer, student, or researcher, you usually would opt to control the speed of a DC Motor using PWM Commands from a microcontroller (e.g. Arduino UNO, etc.) using a motor driver like the L298N Driver Module (or any other motor driver module).
 </br></br>
 While this control method is simple and easy, the only drawback of this control style is that it is an open-loop control and does not allow you to command a desired angular speed easily. This generally poses a lot of limitations in their uses, especially in more advanced robotics (e.g. wheeled mobile robotics) projects requiring precise speed controls.
