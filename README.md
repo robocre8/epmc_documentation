@@ -5,7 +5,8 @@ It is an **easy-to-use** digital **PID** motor controller system for controlling
 </br></br>
 It also provides a `USB serial and I2C communication interface` with `ROS2`, `Arduino`, `Python`, and `Cpp` libraries for easy interfacing with one's preferred project.
 
-> Short test video
+> L298N EPMC ROS2 TEST VIDEO
+![smc_ros2_test_new (1)](https://github.com/user-attachments/assets/be3575a9-22a8-468b-9f65-0a5e35993abd)
 
 > [!NOTE]
 > **`L298N EPMC Module`** is the main EPMC product. It consists of the L298N Driver IC and an ATmega328 microcontroller.
@@ -14,9 +15,9 @@ It also provides a `USB serial and I2C communication interface` with `ROS2`, `Ar
 > 
 > It can easily be used by robotics or ROS hobbyists, students, learners, researchers, engineers, etc.
 
-> Picture explaining the L298N EPMC Module
-> 
-> Picture explaining the concept of the custom EPMC Interface board.
+> L298N EPMC MODULE
+![epmc_view_2](https://github.com/user-attachments/assets/b4e56b2b-8af1-4953-ade6-9cf4b84c4766)
+
 #
 
 #### THE COMMON MOTOR SPEED CONTROL PROBLEM (The Traditional PWM Approach)
@@ -41,7 +42,6 @@ The **`Easy PID Motor Controller (EPMC)`** easily solves and abstracts all these
 #
 
 #### The Easy PID Motor Controller (L298N EPMC MODULE) SPECIFICATION
-> Picture showing part labels
 
 * Recommended Supply Voltage – 7v to 12v
 * Motor Output Supply Current (Max) – 2A (i.e. should be used with geared DC motors whose stall current is not greater than 2A or 2.5A)
@@ -50,6 +50,9 @@ The **`Easy PID Motor Controller (EPMC)`** easily solves and abstracts all these
 * `Angular speed commands` are in **rad/sec**.
 * `Angular speed feedback` in **rad/sec**.
 * `Angular position feedback` in **radians**.
+
+> L298N EPMC OVERVIEW
+![epmc_connection_overview](https://github.com/user-attachments/assets/a64cc527-29fb-4b32-8ca8-f86812618088)
 
 #
 
