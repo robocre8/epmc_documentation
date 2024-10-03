@@ -66,7 +66,7 @@ The **`Easy PID Motor Controller (EPMC)`** easily solves and abstracts all these
 * Get/Purchase the **L298N EPMC MODULE** (or a **Custom EPMC Interface Board**)
 > [!NOTE]
 > The **L298N EPMC MODULE** (or a **Custom EPMC Interface Board**) is available on **`Pre-order`**.
-> Please reach out to me via [LinkedIn](www.linkedin.com/in/samuel-obiagba-a61316196) or through my [Contact](https://samukothings.com/contact/) page.
+> Please reach out to me via [LinkedIn](https://www.linkedin.com/in/samuel-obiagba-a61316196/) or through my [Contact](https://samukothings.com/contact/) page.
 * Interface the geared DC motors with quadrature encoder to the **L298N EPMC MODULE** (or the **Custom EPMC Interface Board**).
 * Download and run the **EPMC Setup Application** to set up the encoder parameter and PID gains for the interfaced geared DC motor with quadrature encoder. You will be able to visualize the result - [tutorial]()
 * Use it in your **ROS2** project - [tutorial]()
@@ -78,7 +78,8 @@ The **`Easy PID Motor Controller (EPMC)`** easily solves and abstracts all these
 
 #### LIBRARIES THAT MADE THE Easy PID Motor Controller PROJECT POSSIBLE
 Check out these Github repos of libraries that went a long way in developing the `Easy PID Motor Controller ATmega328 microcontroller computational system`. You can use them in your projects also (Ensure to star them).
-* [simple_pid_control]() - PID Arduino library based on the [PID control series]() by Prof. Kelvin Lynch of Northwestern Robotics, developed by samuko-things.
-* [adaptive_lowpass_filter]() - Arduino code for implementing one and two-order lowpass filter in your Arduino signal processing project/code by [Curio Res](). Also, check out how I made use of it to create an Arduino library - [samuko filter code]().
-* [quadrature_encoder_velocity_and_position_calculation]() - sample Arduino code on how to compute rotational velocity and position with a quadrature encoder, developed by samuko-things.
-* [Serial_comm_pyserial_and_arduino]() - a backend-API-style serial communication code between Pyserial and Arduino that can be adapted to any project, developed by samuko-things.
+* [simple_pid_control](https://github.com/samuko-things/simple_pid_control) - PID Arduino library based on the [PID control series]() by Prof. Kelvin Lynch of Northwestern Robotics, developed by samuko-things.
+* [l298n_motor_control](https://github.com/samuko-things/l298n_motor_control) – Arduino library that helps you easily control with PWM the l298n driver module (or any other driver module with a similar control style), developed by samuko-things
+* [adaptive_lowpass_filter](https://github.com/samuko-things/adaptive_low_pass_filter) - Arduino code for implementing one and two-order lowpass filter in your Arduino signal processing project/code by [Curio Res](). Adapted by samuko things.
+* [quadrature_encoder_velocity_and_position_calculation](https://github.com/samuko-things/quadrature_encoder_sample_code) - sample Arduino code on how to compute rotational velocity and position with a quadrature encoder, developed by samuko-things.
+* [Serial_comm_pyserial_and_arduino](https://github.com/samuko-things/serial_comm_pyserial_and_arduino) - a backend-API-style serial communication code between Pyserial and Arduino that can be adapted to any project, developed by samuko-things.
