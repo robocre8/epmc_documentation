@@ -6,7 +6,7 @@ It is an **easy-to-use** digital **PID** motor controller system for controlling
 It also provides a `USB serial and I2C communication interface` with `ROS2`, `Arduino`, `Python`, and `Cpp` libraries for easy interfacing with one's preferred project.
 
 > L298N EPMC ROS2 TEST VIDEO
-![epmc_ros2_test_vid](./docs/epmc_ros2_test_vid.gif)
+![epmc_enc_test](./docs/epmc_enc_test.gif)
 
 > [!NOTE]
 > **`L298N EPMC Module`** is the main EPMC product. It consists of the L298N Driver IC and an ATmega328 microcontroller.
