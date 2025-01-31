@@ -6,7 +6,7 @@ It is an **easy-to-use** digital **PID** motor controller system for controlling
 It also provides a `USB serial and I2C communication interface` with `ROS2`, `Arduino`, `Python`, and `Cpp` libraries for easy interfacing with one's preferred project.
 
 > L298N EPMC ROS2 TEST VIDEO
-![smc_ros2_test_new (1)](https://github.com/user-attachments/assets/be3575a9-22a8-468b-9f65-0a5e35993abd)
+![epmc_ros2_test_vid](./docs/epmc_ros2_test_vid.gif)
 
 > [!NOTE]
 > **`L298N EPMC Module`** is the main EPMC product. It consists of the L298N Driver IC and an ATmega328 microcontroller.
@@ -16,7 +16,7 @@ It also provides a `USB serial and I2C communication interface` with `ROS2`, `Ar
 > It can easily be used by robotics or ROS hobbyists, students, learners, researchers, engineers, etc.
 
 > L298N EPMC MODULE
-![epmc_view_2](https://github.com/user-attachments/assets/b4e56b2b-8af1-4953-ade6-9cf4b84c4766)
+![epmc_full_pic](./docs//epmc_full_pic.png)
 
 #
 
@@ -52,7 +52,7 @@ The **`Easy PID Motor Controller (EPMC)`** easily solves and abstracts all these
 * `Angular position feedback` in **radians**.
 
 > L298N EPMC OVERVIEW
-![epmc_connection_overview](https://github.com/user-attachments/assets/a64cc527-29fb-4b32-8ca8-f86812618088)
+![epmc_connection_overview](./docs/epmc_connection_overview.png)
 
 #
 
