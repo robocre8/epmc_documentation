@@ -11,7 +11,7 @@ It also provides a `USB serial and I2C communication interface` with `ROS2`, `Ar
 > [!NOTE]
 > **`L298N EPMC Module`** is the main EPMC product. It consists of the L298N Driver IC and an ATmega328 microcontroller.
 > 
-> **`Custom EPMC Interface Board`** can also be made for other motor drivers (as long as they can control motor speed using the Arduino PWM). This may be due to the higher current requirement of the motor you intend to use for your project which the L298N (i.e. `L298N EPMC Module`) cannot provide. If you need a solution like that you can contact me from my [website]() or via [LinkedIn]()
+> **`Custom EPMC Interface Board`** can also be made for other motor drivers (as long as they can control motor speed using the Arduino PWM). This may be due to the higher current requirement of the motor you intend to use for your project which the L298N (i.e. `L298N EPMC Module`) cannot provide. If you need a solution like that you can contact me: visit the [robocrea8](https://github.com/robocre8)
 > 
 > It can easily be used by robotics or ROS hobbyists, students, learners, researchers, engineers, etc.
 
@@ -33,11 +33,11 @@ The **`Easy PID Motor Controller (EPMC)`** easily solves and abstracts all these
 > [!IMPORTANT]
 > In summary, the **`Easy PID Motor Controller (EPMC)`** provides the following:
 > * Easy interfacing with a **geared DC motor** with a **quadrature encoder**.
-> * Easy setting up of PID control parameter gain for the interfaced motor via its GUI application - [epmc_setup_application](https://github.com/samuko-things-company/epmc_setup_application).
+> * Easy setting up of PID control parameter gain for the interfaced motor via its GUI application - [epmc_setup_application](https://github.com/robocre8/epmc_setup_application).
 > * Easy motor angular speed commands in rad/sec (not PWM) and getting feedback on the motor’s actual angular position and angular speed.
-> * Easy integration with `ROS2` (microcomputer or PC) projects with its ROS2 control package - [epmc_ros2_control](https://github.com/samuko-things-company/epmc_ros2_control).
-> * Easy integration with `Arduino` projects with its I2C library - [epmc_arduino](https://github.com/samuko-things-company/epmc_arduino).
-> * Easy integration with a microcomputer-based (`Python` or `Cpp`) project with its [epmc_python](https://github.com/samuko-things-company/epmc_python) and [epmc_cpp](https://github.com/samuko-things-company/epmc_cpp) library.
+> * Easy integration with `ROS2` (microcomputer or PC) projects with its ROS2 control package - [epmc_ros2_control](https://github.com/robocre8/epmc_hardware_interface).
+> * Easy integration with `Arduino` projects with its I2C library - [epmc_arduino](https://github.com/robocre8/epmc_arduino).
+> * Easy integration with a microcomputer-based (`Python` or `Cpp`) project with its [epmc_python](https://github.com/robocre8/epmc_python) and [epmc_cpp](https://github.com/robocre8/epmc_cpp) library.
 
 #
 
@@ -66,7 +66,7 @@ The **`Easy PID Motor Controller (EPMC)`** easily solves and abstracts all these
 * Get/Purchase the **L298N EPMC MODULE** (or a **Custom EPMC Interface Board**)
 > [!NOTE]
 > The **L298N EPMC MODULE** (or a **Custom EPMC Interface Board**) is available on **`Pre-order`**.
-> Please reach out to me via [LinkedIn](https://www.linkedin.com/in/samuel-obiagba-a61316196/) or through my [Contact](https://samukothings.com/contact/) page.
+> Please reach out to me - check [robocre8](https://github.com/robocre8) for mode of contact.
 * Interface the geared DC motors with quadrature encoder to the **L298N EPMC MODULE** (or the **Custom EPMC Interface Board**).
 * Download and run the **EPMC Setup Application** to set up the encoder parameter and PID gains for the interfaced geared DC motor with quadrature encoder. You will be able to visualize the result - [tutorial]()
 * Use it in your **ROS2** project - [tutorial]()
